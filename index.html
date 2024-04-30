@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wassup chat app</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <section class="chat__section">
+    <div class="brand">
+      <img height="40" src="/image1.png" alt="">
+      <h1>Chat-App</h1>
+    </div>
+    <div class="message__area"></div>
+    <div class="message-input">
+      <textarea id="textarea" cols="30" rows="1" placeholder="Write a message..."></textarea>
+      <div class="message-options">
+        <i class="fas fa-microphone mic-option"></i>
+        <i class="fas fa-image pic-option"></i>
+      </div>
+    </div>
+  </section>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/client.js"></script>
+</body>
+</html>
